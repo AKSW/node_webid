@@ -26,7 +26,7 @@ https.createServer(options, function(req, res) {
       // On error
       switch (errLog) {
       case 'certificateProvidedSAN':
-          var message = 'No valide Certificate Alternative Name in your certificate';
+          var message = 'No valid Certificate Alternative Name in your certificate';
           break;
       case 'profileWellFormed':
           var message = 'Can\'t load your foaf file (RDF may not be valid)';
