@@ -1,0 +1,227 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', '-g' ]
+2 info using npm@1.1.43
+3 info using node@v0.8.3
+4 verbose config file /home/cannelony/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose read json /usr/local/lib/package.json
+8 verbose read json /usr/local/lib/package.json
+9 verbose cache add [ '.', null ]
+10 silly cache add name=undefined spec="." args=[".",null]
+11 verbose parsed url { pathname: '.', path: '.', href: '.' }
+12 silly lockFile 3a52ce78- .
+13 verbose lock . /home/cannelony/.npm/3a52ce78-.lock
+14 verbose read json package.json
+15 verbose tar pack [ '/home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/tmp.tgz',
+15 verbose tar pack   '.' ]
+16 verbose tarball /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/tmp.tgz
+17 verbose folder .
+18 info prepublish raptor@0.1.0-2
+19 silly lockFile 6c4db746-4908551-0-78976353793405-tmp-tgz /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/tmp.tgz
+20 verbose lock /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/tmp.tgz /home/cannelony/.npm/6c4db746-4908551-0-78976353793405-tmp-tgz.lock
+21 silly lockFile 6c4db746-4908551-0-78976353793405-tmp-tgz /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/tmp.tgz
+22 verbose tar unpack /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/tmp.tgz
+23 silly lockFile 1afcf7d1-4908551-0-78976353793405-package /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/package
+24 verbose lock /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/package /home/cannelony/.npm/1afcf7d1-4908551-0-78976353793405-package.lock
+25 silly gunzTarPerm modes [ '755', '644' ]
+26 silly gunzTarPerm extractEntry package.json
+27 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+32 silly gunzTarPerm extractEntry index.js
+33 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+34 silly gunzTarPerm extractEntry binding.gyp
+35 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 420 ]
+36 silly gunzTarPerm extractEntry Makefile
+37 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+38 silly gunzTarPerm extractEntry test/parse.js
+39 silly gunzTarPerm modified mode [ 'test/parse.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry test/parse_buffer.js
+41 silly gunzTarPerm modified mode [ 'test/parse_buffer.js', 436, 420 ]
+42 silly gunzTarPerm extractEntry test/parse_uri.js
+43 silly gunzTarPerm modified mode [ 'test/parse_uri.js', 436, 420 ]
+44 silly gunzTarPerm extractEntry test/serialize.js
+45 silly gunzTarPerm modified mode [ 'test/serialize.js', 436, 420 ]
+46 silly gunzTarPerm extractEntry test/phil.rdf
+47 silly gunzTarPerm modified mode [ 'test/phil.rdf', 436, 420 ]
+48 silly gunzTarPerm extractEntry test/ser_test.rdf
+49 silly gunzTarPerm modified mode [ 'test/ser_test.rdf', 436, 420 ]
+50 silly gunzTarPerm extractEntry src/bindings.cc
+51 silly gunzTarPerm modified mode [ 'src/bindings.cc', 436, 420 ]
+52 silly gunzTarPerm extractEntry src/statement.cc
+53 silly gunzTarPerm modified mode [ 'src/statement.cc', 436, 420 ]
+54 silly gunzTarPerm extractEntry src/statement.h
+55 silly gunzTarPerm modified mode [ 'src/statement.h', 436, 420 ]
+56 silly gunzTarPerm extractEntry src/statics.h
+57 silly gunzTarPerm modified mode [ 'src/statics.h', 436, 420 ]
+58 silly gunzTarPerm extractEntry src/serializer.cc
+59 silly gunzTarPerm modified mode [ 'src/serializer.cc', 436, 420 ]
+60 silly gunzTarPerm extractEntry src/parser.h
+61 silly gunzTarPerm modified mode [ 'src/parser.h', 436, 420 ]
+62 silly gunzTarPerm extractEntry src/parser.cc
+63 silly gunzTarPerm modified mode [ 'src/parser.cc', 436, 420 ]
+64 silly gunzTarPerm extractEntry src/serializer.h
+65 silly gunzTarPerm modified mode [ 'src/serializer.h', 436, 420 ]
+66 silly gunzTarPerm extractEntry src/wscript
+67 silly gunzTarPerm modified mode [ 'src/wscript', 436, 420 ]
+68 silly gunzTarPerm extractEntry README.mdown
+69 silly gunzTarPerm modified mode [ 'README.mdown', 436, 420 ]
+70 silly gunzTarPerm extractEntry NOTICE
+71 silly gunzTarPerm modified mode [ 'NOTICE', 436, 420 ]
+72 verbose read json /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/package/package.json
+73 silly lockFile 1afcf7d1-4908551-0-78976353793405-package /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/package
+74 verbose from cache /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/package/package.json
+75 verbose tar pack [ '/home/cannelony/.npm/raptor/0.1.0-2/package.tgz',
+75 verbose tar pack   '/home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/package' ]
+76 verbose tarball /home/cannelony/.npm/raptor/0.1.0-2/package.tgz
+77 verbose folder /home/cannelony/tmp/npm-9449/1366714908551-0.78976353793405/package
+78 silly lockFile 30d9e299-y-npm-raptor-0-1-0-2-package-tgz /home/cannelony/.npm/raptor/0.1.0-2/package.tgz
+79 verbose lock /home/cannelony/.npm/raptor/0.1.0-2/package.tgz /home/cannelony/.npm/30d9e299-y-npm-raptor-0-1-0-2-package-tgz.lock
+80 silly lockFile 30d9e299-y-npm-raptor-0-1-0-2-package-tgz /home/cannelony/.npm/raptor/0.1.0-2/package.tgz
+81 silly lockFile 5abfcd20-elony-npm-raptor-0-1-0-2-package /home/cannelony/.npm/raptor/0.1.0-2/package
+82 verbose lock /home/cannelony/.npm/raptor/0.1.0-2/package /home/cannelony/.npm/5abfcd20-elony-npm-raptor-0-1-0-2-package.lock
+83 silly lockFile 5abfcd20-elony-npm-raptor-0-1-0-2-package /home/cannelony/.npm/raptor/0.1.0-2/package
+84 verbose tar unpack /home/cannelony/.npm/raptor/0.1.0-2/package.tgz
+85 silly lockFile 5abfcd20-elony-npm-raptor-0-1-0-2-package /home/cannelony/.npm/raptor/0.1.0-2/package
+86 verbose lock /home/cannelony/.npm/raptor/0.1.0-2/package /home/cannelony/.npm/5abfcd20-elony-npm-raptor-0-1-0-2-package.lock
+87 silly gunzTarPerm modes [ '755', '644' ]
+88 silly gunzTarPerm extractEntry package.json
+89 silly gunzTarPerm extractEntry .npmignore
+90 silly gunzTarPerm extractEntry LICENSE
+91 silly gunzTarPerm extractEntry index.js
+92 silly gunzTarPerm extractEntry binding.gyp
+93 silly gunzTarPerm extractEntry Makefile
+94 silly gunzTarPerm extractEntry test/parse.js
+95 silly gunzTarPerm extractEntry test/parse_buffer.js
+96 silly gunzTarPerm extractEntry test/parse_uri.js
+97 silly gunzTarPerm extractEntry test/serialize.js
+98 silly gunzTarPerm extractEntry test/phil.rdf
+99 silly gunzTarPerm extractEntry test/ser_test.rdf
+100 silly gunzTarPerm extractEntry src/bindings.cc
+101 silly gunzTarPerm extractEntry src/statement.cc
+102 silly gunzTarPerm extractEntry src/statement.h
+103 silly gunzTarPerm extractEntry src/statics.h
+104 silly gunzTarPerm extractEntry src/serializer.cc
+105 silly gunzTarPerm extractEntry src/parser.h
+106 silly gunzTarPerm extractEntry src/parser.cc
+107 silly gunzTarPerm extractEntry src/serializer.h
+108 silly gunzTarPerm extractEntry src/wscript
+109 silly gunzTarPerm extractEntry README.mdown
+110 silly gunzTarPerm extractEntry NOTICE
+111 verbose read json /home/cannelony/.npm/raptor/0.1.0-2/package/package.json
+112 silly lockFile 5abfcd20-elony-npm-raptor-0-1-0-2-package /home/cannelony/.npm/raptor/0.1.0-2/package
+113 silly shasum updated bytes 17898
+114 info shasum 7c1340ad8509aae6c4e3448a240d0e0880b6fef6
+114 info shasum /home/cannelony/.npm/raptor/0.1.0-2/package.tgz
+115 verbose from cache /home/cannelony/.npm/raptor/0.1.0-2/package/package.json
+116 verbose chmod /home/cannelony/.npm/raptor/0.1.0-2/package.tgz 644
+117 verbose chown /home/cannelony/.npm/raptor/0.1.0-2/package.tgz [ 1000, 1000 ]
+118 silly lockFile 3a52ce78- .
+119 silly resolved [ { name: 'raptor',
+119 silly resolved     version: '0.1.0-2',
+119 silly resolved     description: 'Node bindings for libraptor2.',
+119 silly resolved     keywords: [ 'rdf', 'turtle', 'rdfxml', 'libraptor' ],
+119 silly resolved     author: { name: 'Norman Heino', email: 'norman.heino@gmail.com' },
+119 silly resolved     contributors: [ [Object] ],
+119 silly resolved     bugs: { url: 'http://github.com/0xfeedface/node_raptor/issues' },
+119 silly resolved     repository:
+119 silly resolved      { type: 'git',
+119 silly resolved        url: 'http://github.com/0xfeedface/node_raptor.git' },
+119 silly resolved     engines: { node: '>=0.8.0' },
+119 silly resolved     main: 'index.js',
+119 silly resolved     directories: { lib: '.' },
+119 silly resolved     scripts: { install: 'node-gyp rebuild' },
+119 silly resolved     gypfile: true,
+119 silly resolved     readme: 'Raptor RDF parser and serializer bindings for Node.js\n=====================================================\n\nExperimental, use at own risk!\n\n[Raptor](http://librdf.org/raptor/) is a mature RDF parsing and serializing library written in C by Dave Beckett. It is part of Redland, the RDF handling and storage library.\n\nThese bindings support [raptor 2](http://librdf.org/raptor/api/) only (v1.9.0 or greater).\n\nBuilding\n========\n\nA version of `libraptor2` is downloaded, compiled and statically linked against automatically. If you prefer to use a version of `libraptor2` already installed on your system (e. g. under `/usr/local`), just \n\n    export RAPTOR_PREFIX=/usr/local\n\nGeneral Usage\n=============\n\nInclude raptor bindings with\n\n    var raptor = require(\'raptor\');\n\nYou can create parsers or serializers for certain syntax types like so:\n\n    var parser = raptor.newParser(\'rdfxml\');\n    var serializer = raptor.newSerializer(\'turtle\');\n\nAPI\n===\n\nParser\n------\n\n* `parser.parseFile(pathName [, base]);`\n\n    Parses file at path `pathName` using optional base URI `base`.\n\n* `parser.parseURI(uri [, base]);`\n\n    Parses RDF date retrieved from `uri` using optional base URI `base`.\n\n* `parser.parseStart([base]);`\n\n    Starts parsing in buffer mode using optional base URI `base`.\n    Buffers can be sent to the parser via `parser.parseBuffer(buffer)`.\n    Calling `parseBuffer()` with no parameter ends buffer parsing mode.\n\n* `parser.setOption(optionName, optionValue);`\n\n    Sets several parsing options (not implemented yet).\n\n* `parser.abort();`\n\n    Aborts the parsing process; \'end\' will be emitted.\n\n* `parser.name` holds the syntax name that was used with `raptor.newParser` (e.&thinsp;g. \'rdfxml\').\n\nSerializer\n----------\n\n\nEmitted Events\n--------------\n\nOn the following conditions, events are emitted:\n\nA new statement was parsed\n--------------------------\n\n    parser.on(\'statement\', function (statement) {\n        // do something with statement\n    });\n\nStatements are exposed with the following structure:\n\n    var statement = {\n        subject: {\n            type: \'uri\',                                 /* \'uri\' or \'bnode\' */\n            value: \'http://example.com/exampleResource\'\n        }, \n        predicate: {\n            type: \'uri\',                                     /* always \'uri\' */\n            value: \'http://example.com/exampleProperty\'\n        }, \n        object: {\n            type: \'typed-literal\',                         /* \'uri\', \'literal\', \n                                                 \'typed-literal\', or \'bnode\' */\n            value: \'An example literal value\', \n            datatype: \'http://www.w3.org/2001/XMLSchema#string\'\n        }, \n        toString: function () {\n                                     /* return statement as N-triples string */\n        }\n    }\n\nA new resource was parsed\n-------------------------\n\n  parser.on(\'resource\', function (r) {\n    // do something with resource\n  });\n\nThe resource\n\n### Parsing has ended\nEither by reaching `EOF`, or by interruption due to `parser.abort()` being called.\n\n    parser.on(\'end\', function () {\n        // handle end event\n    });\n\n### A namespace has been declared\n\n    parser.on(\'namespace\', function (prefix, namespaceURI) {\n        // handle namespace event\n    });\n\n### A message has been retrieved\n\n    parser.on(\'message\', function (type, message, code) {\n        // log errors and warnings synchronously\n        if (type == \'error\' || type == \'warning\') {\n            util.log(type.toUpperCase() + \': \' + message + \' (\' + code + \')\');\n        }\n    });\n\n',
+119 silly resolved     _id: 'raptor@0.1.0-2',
+119 silly resolved     dist: { shasum: '7c1340ad8509aae6c4e3448a240d0e0880b6fef6' },
+119 silly resolved     _from: '.' } ]
+120 info install raptor@0.1.0-2 into /usr/local/lib
+121 info installOne raptor@0.1.0-2
+122 verbose from cache /home/cannelony/.npm/raptor/0.1.0-2/package/package.json
+123 info /usr/local/lib/node_modules/raptor unbuild
+124 verbose read json /usr/local/lib/node_modules/raptor/package.json
+125 verbose tar unpack /home/cannelony/.npm/raptor/0.1.0-2/package.tgz
+126 silly lockFile ae3b2953-sr-local-lib-node-modules-raptor /usr/local/lib/node_modules/raptor
+127 verbose lock /usr/local/lib/node_modules/raptor /home/cannelony/.npm/ae3b2953-sr-local-lib-node-modules-raptor.lock
+128 silly gunzTarPerm modes [ '755', '644' ]
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm extractEntry .npmignore
+131 silly gunzTarPerm extractEntry LICENSE
+132 silly gunzTarPerm extractEntry index.js
+133 silly gunzTarPerm extractEntry binding.gyp
+134 silly gunzTarPerm extractEntry Makefile
+135 silly gunzTarPerm extractEntry test/parse.js
+136 silly gunzTarPerm extractEntry test/parse_buffer.js
+137 silly gunzTarPerm extractEntry test/parse_uri.js
+138 silly gunzTarPerm extractEntry test/serialize.js
+139 silly gunzTarPerm extractEntry test/phil.rdf
+140 silly gunzTarPerm extractEntry test/ser_test.rdf
+141 silly gunzTarPerm extractEntry src/bindings.cc
+142 silly gunzTarPerm extractEntry src/statement.cc
+143 silly gunzTarPerm extractEntry src/statement.h
+144 silly gunzTarPerm extractEntry src/statics.h
+145 silly gunzTarPerm extractEntry src/serializer.cc
+146 silly gunzTarPerm extractEntry src/parser.h
+147 silly gunzTarPerm extractEntry src/parser.cc
+148 silly gunzTarPerm extractEntry src/serializer.h
+149 silly gunzTarPerm extractEntry src/wscript
+150 silly gunzTarPerm extractEntry README.mdown
+151 silly gunzTarPerm extractEntry NOTICE
+152 verbose read json /usr/local/lib/node_modules/raptor/package.json
+153 silly lockFile ae3b2953-sr-local-lib-node-modules-raptor /usr/local/lib/node_modules/raptor
+154 info preinstall raptor@0.1.0-2
+155 verbose from cache /usr/local/lib/node_modules/raptor/package.json
+156 verbose readDependencies using package.json deps
+157 verbose from cache /usr/local/lib/node_modules/raptor/package.json
+158 verbose readDependencies using package.json deps
+159 silly resolved []
+160 verbose about to build /usr/local/lib/node_modules/raptor
+161 info build /usr/local/lib/node_modules/raptor
+162 verbose from cache /usr/local/lib/node_modules/raptor/package.json
+163 verbose linkStuff [ true,
+163 verbose linkStuff   '/usr/local/lib/node_modules',
+163 verbose linkStuff   true,
+163 verbose linkStuff   '/usr/local/lib/node_modules' ]
+164 info linkStuff raptor@0.1.0-2
+165 verbose linkBins raptor@0.1.0-2
+166 verbose linkMans raptor@0.1.0-2
+167 verbose rebuildBundles raptor@0.1.0-2
+168 info install raptor@0.1.0-2
+169 verbose unsafe-perm in lifecycle false
+170 verbose set uid from=0 to=nobody
+171 verbose set uid from=0 to=65534
+172 silly exec sh "-c" "node-gyp rebuild"
+173 silly sh,-c,node-gyp rebuild,/usr/local/lib/node_modules/raptor spawning
+174 info raptor@0.1.0-2 Failed to exec install script
+175 info /usr/local/lib/node_modules/raptor unbuild
+176 verbose from cache /usr/local/lib/node_modules/raptor/package.json
+177 info preuninstall raptor@0.1.0-2
+178 info uninstall raptor@0.1.0-2
+179 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild raptor@0.1.0-2
+180 info postuninstall raptor@0.1.0-2
+181 error raptor@0.1.0-2 install: `node-gyp rebuild`
+181 error `sh "-c" "node-gyp rebuild"` failed with 1
+182 error Failed at the raptor@0.1.0-2 install script.
+182 error This is most likely a problem with the raptor package,
+182 error not with npm itself.
+182 error Tell the author that this fails on your system:
+182 error     node-gyp rebuild
+182 error You can get their info via:
+182 error     npm owner ls raptor
+182 error There is likely additional logging output above.
+183 error System Linux 3.2.0-23-generic
+184 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g"
+185 error cwd /home/cannelony/Development/node_raptor
+186 error node -v v0.8.3
+187 error npm -v 1.1.43
+188 error code ELIFECYCLE
+189 error stack Error: raptor@0.1.0-2 install: `node-gyp rebuild`
+189 error stack `sh "-c" "node-gyp rebuild"` failed with 1
+189 error stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/exec.js:56:20)
+189 error stack     at ChildProcess.EventEmitter.emit (events.js:91:17)
+189 error stack     at Process._handle.onexit (child_process.js:674:10)
+190 verbose exit [ 1, true ]
