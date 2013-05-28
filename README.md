@@ -1,2 +1,2 @@
-dssn_webid
+node_webid
 ==========
